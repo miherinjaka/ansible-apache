@@ -1,0 +1,6 @@
+---
+- hosts: apache-host
+  become: yes
+  become_method: sudo
+  roles:
+    - apache
